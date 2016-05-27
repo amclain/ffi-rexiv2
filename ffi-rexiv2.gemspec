@@ -2,7 +2,7 @@ require_relative 'lib/ffi-rexiv2/version'
 
 Gem::Specification.new do |s|
   s.name      = 'ffi-rexiv2'
-  s.version   = Exiv::VERSION
+  s.version   = LibExiv::VERSION
   s.date      = Time.now.strftime '%Y-%m-%d'
   s.summary   = 'A low-level Ruby FFI wrapper for libexiv2.'
   s.description = 'A low-level Ruby FFI wrapper for libexiv2.'

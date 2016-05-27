@@ -1,6 +1,6 @@
 # A low-level Ruby FFI wrapper for libexiv2.
 # @see http://www.exiv2.org/doc/classes.html libexiv2 API documentation
-module Exiv
+module LibExiv
   extend FFI::Library
 
   # TODO: Search the common paths for the library.
